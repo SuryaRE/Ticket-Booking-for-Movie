@@ -1,0 +1,52 @@
+*{
+	font-family: cursive;
+}
+.people{
+	position: relative;
+	right:-700px;
+	top:390px;
+}
+.login{
+	position: fixed;
+	box-shadow: -10px -10px 50px #AF0000;
+	border: 3px red solid;
+	width: 500px;
+	height: 300px;
+	right: 500px;
+	top:150px;
+	background-color: #777777;
+}
+.signup{
+	position: fixed;
+	box-shadow: -10px -10px 50px #AF0000;
+	border: 3px red solid;
+	width: 600px;
+	height: 650px;
+	right: 500px;
+	top:30px;
+	background-color: #777777;
+}
+body{
+	background-color: #1AFF8C;
+}
+p{
+	position: fixed;
+	top:400px;
+	right: 510px;
+	font-size: 18px;
+}
+form{
+	font-size: 20px;
+	color: #FFFFFF;
+}
+h1{
+	text-align: center;
+}
+input{
+	font-size: 20px;
+}
+button{
+	font-size: 20px;
+	background-color: #1100BB;
+	border:transparent;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup</title>
+	<link rel="stylesheet" type="text/css" href="/css/login.css">
+</head>
+<body>
+	<div class="signup">
+	<form align="center">
+		<br>
+		<table>
+		<tr>
+			<td><label>First name:</label></td>
+			<td><input type="text" name="fname" required></td>
+		</tr>
+		<tr>
+			<td><label>Last name:</label></td>
+			<td><input type="text" name="lname" required></td>
+		</tr>
+		<tr>
+			<td><label>User name:</label></td>
+			<td><input type="text" name="uname" required></td>
+		</tr>
+		<tr>
+			<td><label>Date of birth:</label></td>
+			<td><input type="Date" name="dob" required></td>
+		</tr>
+		<tr>
+			<td><label>Password:</label></td>
+			<td><input type="password" name="pwd" required></td>
+		</tr>
+		<tr>
+			<td><label>Confirm password:</label></td>
+			<td><input type="password" pattern="pwd" required="true"><br></td>
+		</tr>
+		<tr>
+			<td><label>Mail Id:</label></td>
+			<td><input type="Mail" name="mid"></td>
+		</tr>
+		<tr>
+			<td><label>Phone number:</label></td>
+			<td><input type="number" name="phone" maxlength="10" required></td>
+		</tr>
+		<tr>
+			<td><label>Address:</label></td>
+			<td><textarea rows="10" cols="40" name="address"></textarea></td>
+		</tr>
+		</table>
+		<input type="checkbox" name="agree">I Agree to the terms and conditions<br><br>
+	<button name="submit">Sign up</button>
+	</form>
+</div>
+</body>
+</html>
